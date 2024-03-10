@@ -46,6 +46,10 @@ Class OD_Colors {
             return false
         }
 
+        if (Ctrl.Type = "ComboBox") {
+            Ctrl.Opt("c" Format("{:X}", Colors["T"]) " Background" Format("{:X}", Colors["B"]))
+        }
+        
         this.Controls[Ctrl.Hwnd] := Map()
         Content := ControlGetItems(Ctrl.Hwnd)
         this.Controls[Ctrl.Hwnd].Items := Content
