@@ -33,7 +33,7 @@
 ;///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Class OD_Colors {
-    static OnMessageInit := OnMessage(0x002C, OD_Colors.MeasureItem)
+    static OnMessageInit := (OnMessage(0x002C, OD_Colors.MeasureItem))
     static ItemHeight := 0
     static Controls := Map()
 
