@@ -1,7 +1,7 @@
 #Requires AutoHotkey v2+
 ;///////////////////////////////////////////////////////////////////////////////////////////////////////
-; Special thanks to Lxiko for writing the original AHK v1 version of this Class
-;   https://github.com/Ixiko/AHK-libs-and-classes-collection/blob/master/classes/class_OD_Colors.ahk
+; Special thanks to just me for writing the original AHK v1 version of this Class
+;   https://www.autohotkey.com/boards/viewtopic.php?t=338
 ;-------------------------------------------------------------------------------------------------------
 ; How to use:
 ;   To register a control call OD_Colors.Attach() passing two parameters:
